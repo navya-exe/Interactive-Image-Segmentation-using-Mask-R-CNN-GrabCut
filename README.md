@@ -157,30 +157,6 @@ The following output images are generated automatically:
 
 ---
 
-## Sample Results
-
-### Original Image
-
-(Add screenshot here)
-
-### Segmented Image
-
-(Add screenshot here)
-
-### Overlay
-
-(Add screenshot here)
-
-### Bounding Boxes
-
-(Add screenshot here)
-
-### GrabCut Refined Result
-
-(Add screenshot here)
-
----
-
 ## Applications
 
 - Autonomous Vehicles
