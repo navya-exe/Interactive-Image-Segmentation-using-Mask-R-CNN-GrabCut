@@ -1,8 +1,8 @@
-# Interactive Image Segmentation using Mask R-CNN and GrabCut
+# Image Segmentation using Mask R-CNN and GrabCut
 
 ## Overview
 
-This project implements an interactive image segmentation system using **Mask R-CNN** for instance segmentation and **GrabCut** for mask refinement. The system detects objects in an input image, generates segmentation masks, refines the detected masks using GrabCut, and visualizes the results with bounding boxes, class labels, and confidence scores.
+This project implements an image segmentation pipeline using **Mask R-CNN** for instance segmentation and **GrabCut** for mask refinement. The system detects objects in an input image, generates segmentation masks, refines the detected masks using GrabCut, and visualizes the results with bounding boxes, class labels, and confidence scores.
 
 The project demonstrates the application of deep learning and classical computer vision techniques for accurate object segmentation.
 
@@ -36,7 +36,7 @@ The project demonstrates the application of deep learning and classical computer
 ## Project Structure
 
 ```
-Image_segmntation/
+Interactive-Image-Segmentation-using-Mask-R-CNN-GrabCut//
 │
 ├── images/
 │   ├── input/
@@ -87,64 +87,6 @@ Bounding Boxes & Labels
       ▼
 Output Images
 ```
-
----
-
-## Installation
-
-### Clone the repository
-
-```bash
-git clone https://github.com/yourusername/interactive-image-segmentation.git
-
-cd interactive-image-segmentation
-```
-
-### Create Virtual Environment
-
-```bash
-python -m venv .venv
-```
-
-Activate it
-
-Windows
-
-```bash
-.venv\Scripts\activate
-```
-
-Linux/Mac
-
-```bash
-source .venv/bin/activate
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## How to Run
-
-Place an input image inside:
-
-```
-images/input/
-```
-
-Run the project:
-
-```bash
-python src/main.py
-```
-
----
-
-## Output
 
 The following output images are generated automatically:
 
